@@ -7,6 +7,8 @@ import styles from './App.module.css';
 import image from './images/image.png';
 import Navbar from 'react-bootstrap/Navbar'
 import Typography from '@material-ui/core/Typography'
+import About from './components/About/About'
+import Divider from '@material-ui/core/Divider'
 
 class App extends React.Component {
   state = {
@@ -32,12 +34,12 @@ class App extends React.Component {
     return (
       <div>
         <div>
-        <Navbar bg="#22282A" variant="dark">
+        <Navbar>
           <Navbar.Brand >
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           </Navbar.Brand>    
           <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text>
+            <Navbar.Text style={{color:"#9B9A9A"}}>
               COVID-19 Updates as of {this.state.curTime}
             </Navbar.Text>
           </Navbar.Collapse>     
@@ -50,6 +52,14 @@ class App extends React.Component {
         <Cards data={data} />
         <Cards2 data={data} />
         <Chart data={data} country={country} /> 
+        <div style={{marginTop:"10px"}}>
+            <div style={{marginBottom:"10px"}}>
+              <hr style={{border:"2px solid #1F2426", borderRadius: "10px", width:"100%"}}></hr>
+            </div>
+            <h4 style={{fontFamily:"Audiowide", color:"white"}}>NOVEL CORONA VIRUS</h4>
+            <hr style={{border:"2px solid white", borderRadius: "10px", width:"30%"}}></hr>  
+          </div>
+        <About />
       </div>
       </div>
       
