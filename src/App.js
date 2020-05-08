@@ -63,6 +63,9 @@ class App extends React.Component {
             <hr style={{border:"2px solid white", borderRadius: "10px", width:"30%"}}></hr>  
           </div>
         <About />
+        <div style={{color:"#9B9A9A", textAlign:"center", marginTop:"50px"}}>
+          <p>Sources: <br></br>API: https://covid19.mathdro.id/api</p>
+        </div>
       </div>
       </div>
       
