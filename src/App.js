@@ -9,6 +9,8 @@ import Navbar from 'react-bootstrap/Navbar'
 import Typography from '@material-ui/core/Typography'
 import About from './components/About/About'
 import Divider from '@material-ui/core/Divider'
+import live from './components/live.png'
+// import corona from './components/corona2.jpg'
 
 class App extends React.Component {
   state = {
@@ -40,7 +42,7 @@ class App extends React.Component {
           </Navbar.Brand>    
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text style={{color:"#9B9A9A"}}>
-              COVID-19 Updates as of {this.state.curTime}
+              <img src={live} style={{height:"50px", width:"50px"}}/> COVID-19 Updates as of {this.state.curTime}
             </Navbar.Text>
           </Navbar.Collapse>     
         </Navbar>
