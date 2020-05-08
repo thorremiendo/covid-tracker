@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography'
 import About from './components/About/About'
 import Divider from '@material-ui/core/Divider'
 import live from './components/live.png'
-// import corona from './components/corona2.jpg'
+import virus from './components/virus.png'
 
 class App extends React.Component {
   state = {
@@ -48,13 +48,14 @@ class App extends React.Component {
         </Navbar>
         </div>
         <div className={styles.container}>
-        <h1 style={{fontFamily: "Audiowide", color:"#f5f5f5"}}>
+        <img src={virus}  style={{height:"140px", width:"140px", opacity:"0.8"}}/>
+        <h1 style={{fontFamily: "Audiowide", color:"#f5f5f5", marginTop:"20px"}}>
         {country.toUpperCase()}  
         </h1>
         <Cards data={data} />
         <Cards2 data={data} />
         <Chart data={data} country={country} /> 
-        <div style={{marginTop:"10px"}}>
+        <div style={{marginTop:"20px"}}>
             <div style={{marginBottom:"10px"}}>
               <hr style={{border:"2px solid #1F2426", borderRadius: "10px", width:"100%"}}></hr>
             </div>
