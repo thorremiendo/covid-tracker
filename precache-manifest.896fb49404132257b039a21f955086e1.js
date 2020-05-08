@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b4342e3d3569191fb2b7a1b3c1dd83c",
+    "revision": "af0411f29353dfe1fe879c71ba8f6386",
     "url": "/covid-tracker/index.html"
   },
   {
-    "revision": "2391f79302c7a9758ca8",
+    "revision": "0c1453b6f1d01722cde5",
     "url": "/covid-tracker/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "5939f348a5241ae6344f",
-    "url": "/covid-tracker/static/css/main.34cd3ce1.chunk.css"
+    "revision": "59f20df0f31a0a0b2ac2",
+    "url": "/covid-tracker/static/css/main.fe42b74a.chunk.css"
   },
   {
-    "revision": "2391f79302c7a9758ca8",
-    "url": "/covid-tracker/static/js/2.14c920b0.chunk.js"
+    "revision": "0c1453b6f1d01722cde5",
+    "url": "/covid-tracker/static/js/2.15c06b4e.chunk.js"
   },
   {
     "revision": "176852ae27885dfd7559e0fb4b332d24",
-    "url": "/covid-tracker/static/js/2.14c920b0.chunk.js.LICENSE.txt"
+    "url": "/covid-tracker/static/js/2.15c06b4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5939f348a5241ae6344f",
-    "url": "/covid-tracker/static/js/main.7049bed5.chunk.js"
+    "revision": "59f20df0f31a0a0b2ac2",
+    "url": "/covid-tracker/static/js/main.7ee8ac2e.chunk.js"
   },
   {
     "revision": "ef7fedef9cd7db49b0f7",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "867489b31cb0e5dc1ac6353e1680bcbd",
     "url": "/covid-tracker/static/media/question.867489b3.png"
+  },
+  {
+    "revision": "91a76b26cb3779a4079aeeb8d17f5faf",
+    "url": "/covid-tracker/static/media/virus.91a76b26.png"
   }
 ]);
